@@ -1,0 +1,2 @@
+<wxs src="../wxs/utils.wxs" module="utils"></wxs>
+<uni-shadow-root class="vant-info-index" vue-id="63971ebe-1" bind:__l="__l" vue-slots="{{['default']}}"><block wx:if="{{info!==null&&info!==''||dot}}"><view class="{{['van-info '+utils.bem('info',{dot})+' custom-class']}}" style="{{(customStyle)}}">{{dot?'':info}}</view></block></uni-shadow-root>

@@ -1,0 +1,2 @@
+<wxs src="../wxs/utils.wxs" module="utils"></wxs>
+<uni-shadow-root class="vant-tab-index" vue-id="748e0552-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="{{['custom-class '+utils.bem('tab__pane',{active,inactive:!active})]}}" style="{{(shouldShow?'':'display: none;')}}"><block wx:if="{{shouldRender}}"><slot></slot></block></view></uni-shadow-root>

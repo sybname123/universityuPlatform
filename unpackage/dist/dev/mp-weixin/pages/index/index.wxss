@@ -1,0 +1,20 @@
+
+.school_scroll {
+		white-space: nowrap;
+}
+
+	/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+	/* 	::-webkit-scrollbar {
+		width: 0rpx !important;
+		height: 0rpx !important;
+		background-color: #F5F5F5;
+	} */
+.school_list {
+		display: inline-block;
+		box-sizing: border-box;
+		padding: 0 20rpx;
+		height: 60rpx;
+		line-height: 60rpx;
+}
+

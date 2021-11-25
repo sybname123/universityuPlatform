@@ -1,0 +1,3 @@
+<wxs src="../wxs/utils.wxs" module="utils"></wxs>
+<wxs src="./index.wxs" module="computed"></wxs>
+<uni-shadow-root class="vant-switch-index" vue-id="c2f3654a-1" bind:__l="__l" vue-slots="{{['default']}}"><view data-event-opts="{{[['tap',[['onClick',['$event']]]]]}}" class="{{[utils.bem('switch',{on:checked===activeValue,disabled})+' custom-class']}}" style="{{computed.rootStyle({size,checked,activeColor,inactiveColor})}}" bindtap="__e"><view class="van-switch__node node-class"><block wx:if="{{loading}}"><van-loading vue-id="{{('c2f3654a-2')+','+('c2f3654a-1')}}" color="{{computed.loadingColor({checked,activeColor,inactiveColor})}}" custom-class="van-switch__loading" bind:__l="__l"></van-loading></block></view></view></uni-shadow-root>

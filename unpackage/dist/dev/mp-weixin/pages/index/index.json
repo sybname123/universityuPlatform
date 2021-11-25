@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "van-tabs": "/wxcomponents/vant/tabs/index",
+    "van-tab": "/wxcomponents/vant/tab/index",
+    "van-switch": "/wxcomponents/vant/switch/index"
+  }
+}

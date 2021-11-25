@@ -1,0 +1,3 @@
+<wxs src="../wxs/utils.wxs" module="utils"></wxs>
+<wxs src="./index.wxs" module="computed"></wxs>
+<uni-shadow-root class="vant-loading-index" vue-id="baed316a-1" bind:__l="__l" vue-slots="{{['default']}}"><view class="{{['custom-class '+utils.bem('loading',{vertical})]}}"><view class="{{['van-loading__spinner van-loading__spinner--'+type]}}" style="{{computed.spinnerStyle({color,size})}}"><block wx:for="{{array12}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block wx:if="{{type==='spinner'}}"><view class="van-loading__dot"></view></block></block></view><view class="van-loading__text" style="{{computed.textStyle({textSize})}}"><slot></slot></view></view></uni-shadow-root>
